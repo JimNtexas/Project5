@@ -20,12 +20,12 @@
             android:id="@+id/thumbnail"
             android:layout_width="fill_parent"
             android:layout_height="match_parent"
-            android:background="@color/primary_light" />
+            android:background="@color/icons" />
 
         <TextView
             android:id="@+id/article_title"
             style="@style/TextAppearance.AppCompat.Subhead"
-            android:layout_width="match_parent"
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:paddingLeft="16dp"
             android:paddingTop="16dp"
