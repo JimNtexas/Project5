@@ -223,7 +223,7 @@ public class ArticleListActivity extends AppCompatActivity implements
           /* Note: I switched to Picasso because Volley was causing slow loading and crashes on API's less than 20 */
             String url = mCursor.getString(ArticleLoader.Query.THUMB_URL);
             //Log.d(TAG, "Loading thumbnail with: " + url);
-            Picasso.with(context).load(url).into(holder.thumbnailView);  /* TODO: Cache images */
+            Picasso.with(context).load(url).into(holder.thumbnailView);
 
 
         }
@@ -262,11 +262,9 @@ public class ArticleListActivity extends AppCompatActivity implements
                     @Override
                     public void onClick(View view) {
                         Log.d(TAG, "snack clicked!!!!!!!!");
-                        if (!mIsRefreshing) {
                             mIsRefreshing = true;
                             refresh();
                             updateRefreshingUI();
-                        }
                     }
                 });
 
