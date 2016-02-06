@@ -57,7 +57,10 @@ public class UpdaterService extends IntentService {
         try {
             JSONArray array = RemoteEndpointUtil.fetchJsonArray();
             if (array == null) {
-                throw new JSONException("Invalid parsed item array" );
+               // throw new JSONException("Invalid parsed item array" );
+                Log.e(TAG, "JSONArray was null");
+                new Intent(BROADCAST_ACTION_STATE_CHANGE).putExtra(EXTRA_REFRESHING, false);
+                return;
             }
 
             for (int i = 0; i < array.length(); i++) {
