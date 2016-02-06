@@ -36,13 +36,14 @@
 
         <android.support.v7.widget.Toolbar
             android:id="@+id/toolbar"
-            app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:theme="@style/ThemeOverlay.AppCompat.Light"
             android:layout_marginLeft="@dimen/list_toolbar_side_margin"
             android:layout_marginRight="@dimen/list_toolbar_side_margin"
             android:layout_width="match_parent"
             android:layout_height="?actionBarSize"
             android:layout_gravity="bottom"
-            android:elevation="10dp">
+            android:elevation="10dp"
+            style="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
 
             <ImageView
                 android:layout_width="wrap_content"

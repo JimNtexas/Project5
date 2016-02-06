@@ -1,6 +1,10 @@
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.xyzreader.ui.ArticleListActivity">
     <item
         android:id="@+id/refresh"
-        android:showAsAction="ifRoom"
+        android:showAsAction="never"
+        android:orderInCategory="100"
         android:title="@string/action_refresh" />
 </menu>
