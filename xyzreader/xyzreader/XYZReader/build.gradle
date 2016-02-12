@@ -23,6 +23,10 @@ android {
     }
 }
 
+ext {
+    supportLibVersion = '23.1.1'  // variable that can be referenced to keep support libs consistent
+}
+
 dependencies {
     compile 'com.android.support:support-v4:23.0.1'
     compile 'com.android.support:support-v13:23.0.1'
