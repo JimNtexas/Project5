@@ -3,7 +3,7 @@ Udacity Project Five -Material Design
 
 RC2:
 Replaced Toobar with AppBarLayout and CollapsableToolbar on the activity article list
-Replaced ImageButton with a FloatingActionButton on the article detail vew
+Replaced ImageButton with a FloatingActionButton on the article detail view
 Replaced some hardcoded xml values with named dimensions 
 
 RC1: 
