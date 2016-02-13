@@ -10,5 +10,9 @@
     <color name="icons">#FFFFFF</color>
     <color name="divider">#B6B6B6</color>
     <color name="photo_placeholder">#ffffff</color>
+	<color name="white">#fff</color>
+	<color name="detail_text">#8fff</color>
+	
+	
 
 </resources>
